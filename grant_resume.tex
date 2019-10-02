@@ -1,4 +1,4 @@
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,12pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -18,8 +18,8 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.375in}  
-\addtolength{\evensidemargin}{-0.375in} 
+\addtolength{\oddsidemargin}{-0.5in}  
+\addtolength{\evensidemargin}{-0.5in} 
 \addtolength{\textwidth}{1in}
 \addtolength{\topmargin}{0in} %.5
 \addtolength{\textheight}{1.0in}
@@ -68,17 +68,30 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\Large Grant Gurvis} & Email : \href{mailto:ggurvis@mail.usf.edu}{ggurvis@mail.usf.edu}\\
-  \href{https://github.com/grant0417}{https://github.com/grant0417} & Mobile : (904)~536-5040\\
-\end{tabular*}
+        \textbf{\Huge Grant Gurvis} & \large{Email: \href{mailto:ggurvis@mail.usf.edu}{ggurvis@mail.usf.edu}}\\
+        \Large{Tampa, FL} & \large{Phone: (904)~536--5040}\\
+             & \large{\href{https://github.com/grant0417}{https://github.com/grant0417}}
+     \end{tabular*}
 
+     \vspace{2em}
+
+%--P
+
+\section{Professional Summary}
+I am a Junior Computer Science student graduating in December 2021. I am looking for an internship for the upcoming Summer or a Part-Time Position.
 
 %-----------EDUCATION-----------------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
       {University of South Florida}{Tampa, Florida}
-      {Major in Computer Science}{Aug. 2018 -- May. 2022}
+      {Major in Computer Science}{August 2018 -- December 2021}
+      \resumeItemListStart
+        \resumeItem{GPA}
+          {3.41}
+        \resumeItem{Coursework}
+        {Programming Concepts, Discrete Structures, Linear Systems, Program Design, Computer Organization (Spring '20), Object Orientated Design (Spring '20)}
+      \resumeItemListEnd
     \resumeSubheading
       {Paxon School for Advanced Studies}{Jacksonville, Florida}
       {International Baccalaureate Diploma; Cum Laude}{Aug. 2014 -- May. 2018}
@@ -90,23 +103,22 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
+      {USF Society of Aeronautics and Rocketry}{Tampa, Florida}
+      {IREC Payload Lead}{November 2018 -- present}
+      \resumeItemListStart
+        \resumeItem{IREC Payload Lead}
+        {Creating a payload for a sounding rocket that is planned to go 30,000' which will have a custom altimeter with a microwave radio to send telemetry to ground during flight.} 
+        \resumeItem{Outreach}
+          {Volunteered at multiple events to help under privileged kids and Girl Scouts to earn a mechanical engineering badge through learning about rockets and engineering}
+       \resumeItemListEnd
+    \resumeSubheading
       {Five Alive Films}{Jacksonville, Florida}
-      {Editor and Photographer}{Oct. 2016 - July. 2018}
+      {Editor and Photographer}{Oct. 2016 -- July. 2018}
       \resumeItemListStart
         \resumeItem{Editing}
-          {Created the closing animated credits, reedited and colorized Missy’s Musical Misadventure.}
+        {Created the closing animated credits, reedited and colorized \textit{Missy’s Musical Misadventure}.}
         \resumeItem{Photography}
           {Photographer for a documentary film shoot on the Jacksonville Axemen Rugby Team.}
-        \resumeItem{Promotion}
-          {Created promotional material for Instagram and Facebook.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Lavilla School of the Arts}{Jacksonville, Florida}
-      {Summer Camp Employee}{June. 2018 - July. 2018}
-      \resumeItemListStart
-        \resumeItem{Camp}
-          {Instructed Elementry and Middle Schoolers on how to make films.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -116,28 +128,19 @@
 \section{Skills}
   \resumeSubHeadingListStart
     \resumeSubItem{Programming}
-      {Comfortable in C and Java. Experience with Visual Studios IDE and IntelliJ IDEA}
+      {C, C++, Java, Javascript}
     \resumeSubItem{Adobe Suite}
       {Premiere Pro CC, After Effects CC, and Photoshop CC}
+    \resumeSubItem{CAD}
+      {Fusion 360, Solidworks}
     \resumeSubItem{Git}
-      {Comfortable using Git Bash and Github}
-    \resumeSubItem{GNU/Linux}
-      {Experience with GNU/Linux Operating Systems}
+      {Git Bash and Github/Gitlab}
+    \resumeSubItem{Operating Systems}
+      {GNU/Linux, Windows, macOS}
     \resumeSubItem{\LaTeX}
-      {Comfortable with \LaTeX }
+      {This resume was written in \LaTeX}
   \resumeSubHeadingListEnd
 
 
-%-------PROGRAMMING SKILLS------------
-%\section{Programming Skills}
-%  \resumeSubHeadingListStart
-%    \item{
-%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
-%      \hfill
-%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
-%    }
-%  \resumeSubHeadingListEnd
 
-
-%-------------------------------------------
 \end{document}
