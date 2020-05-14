@@ -21,7 +21,7 @@
 \addtolength{\oddsidemargin}{-0.5in}  
 \addtolength{\evensidemargin}{-0.5in} 
 \addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{0in} %.5
+\addtolength{\topmargin}{-.3in} %.5
 \addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
@@ -68,33 +68,35 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-        \textbf{\Huge Grant Gurvis} & \large{Email: \href{mailto:ggurvis@mail.usf.edu}{ggurvis@mail.usf.edu}}\\
+        \textbf{\Huge Grant Gurvis} & \large{Email: \href{mailto:ggurvis@usf.edu}{ggurvis@usf.edu}}\\
         \Large{Tampa, FL} & \large{Phone: (904)~536--5040}\\
-             & \large{\href{https://github.com/grant0417}{https://github.com/grant0417}}
+             & \large{\href{https://github.com/grant0417}{github.com/grant0417}}
      \end{tabular*}
 
-     \vspace{2em}
+     \vspace{1em}
 
 %--P
 
 \section{Professional Summary}
-I am a Junior Computer Science student graduating in December 2021. I am looking for an internship for the upcoming Summer or a Part-Time Position.
+I am a Junior Computer Science student graduating in Fall 2021 seeking an internship or research opportunity for the upcoming summer or fall.
 
 %-----------EDUCATION-----------------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
       {University of South Florida}{Tampa, Florida}
-      {Major in Computer Science}{August 2018 -- December 2021}
+      {Major in Computer Science, Minor in Mathematics, GPA: 3.36}{August 2018 -- December 2021}
       \resumeItemListStart
-        \resumeItem{GPA}
-          {3.41}
         \resumeItem{Coursework}
-        {Programming Concepts, Discrete Structures, Linear Systems, Program Design, Computer Organization (Spring '20), Object Orientated Design (Spring '20)}
+        {Discrete Structures, Linear Systems, Computer Organization, Object Orientated Design,          Data Structures (Summer 2020)}
       \resumeItemListEnd
-    \resumeSubheading
-      {Paxon School for Advanced Studies}{Jacksonville, Florida}
-      {International Baccalaureate Diploma; Cum Laude}{Aug. 2014 -- May. 2018}
+  %\resumeSubheading
+  %    {Paxon School for Advanced Studies}{Jacksonville, Florida}
+  %    {International Baccalaureate Diploma; Cum Laude}{Aug. 2014 -- May. 2018}
+  %    \resumeItemListStart
+  %    \resumeItem{Involvement}
+  %    {President of Philosophy Club, Brain Brawl Competitor, and T.V. Production Director}
+  %    \resumeItemListEnd
   \resumeSubHeadingListEnd
 
 
@@ -104,23 +106,42 @@ I am a Junior Computer Science student graduating in December 2021. I am looking
 
     \resumeSubheading
       {USF Society of Aeronautics and Rocketry}{Tampa, Florida}
-      {IREC Payload Lead}{November 2018 -- present}
+      {IREC Payload Lead and Chief Technical Officer}{November 2018 -- present}
       \resumeItemListStart
-        \resumeItem{IREC Payload Lead}
-        {Creating a payload for a sounding rocket that is planned to go 30,000' which will have a custom altimeter with a microwave radio to send telemetry to ground during flight.} 
+        \resumeItem{\href{https://github.com/usfsoar/irec-avionics-payload-pcb}{IREC Payload Lead}}
+          {Created a payload for a sounding rocket that is planned to go 30,000' which has a custom altimeter with a microwave radio to send telemetry to ground during flight.} 
+          \resumeItem{Chief Technical Officer}
+          {Created a \href{https://gifted-edison-ea18a3.netlify.app/}{new website} for the organization.}
         \resumeItem{Outreach}
-          {Volunteered at multiple events to help under privileged kids and Girl Scouts to earn a mechanical engineering badge through learning about rockets and engineering}
+          {Volunteered at multiple events to help under privileged students and Girl Scouts to earn a mechanical engineering badge through learning about rockets and engineering.}
+          %\resumeItem{TRA Level 1 Certification} 
+          %{Certified with TRA to launch rockets with up to 640 newton-seconds of impulse}
        \resumeItemListEnd
-    \resumeSubheading
-      {Five Alive Films}{Jacksonville, Florida}
-      {Editor and Photographer}{Oct. 2016 -- July. 2018}
-      \resumeItemListStart
-        \resumeItem{Editing}
-        {Created the closing animated credits, reedited and colorized \textit{Missy’s Musical Misadventure}.}
-        \resumeItem{Photography}
-          {Photographer for a documentary film shoot on the Jacksonville Axemen Rugby Team.}
-      \resumeItemListEnd
 
+    %\resumeSubheading
+    %  {Five Alive Films}{Jacksonville, Florida}
+    %  {Editor and Photographer}{Oct. 2016 -- July. 2018}
+    %  \resumeItemListStart
+    %    \resumeItem{Editing}
+    %    {Created the closing animated credits, reedited and colorized \textit{Missy’s Musical Misadventure}.}
+    %    \resumeItem{Photography}
+    %      {Photographer for a documentary film shoot on the Jacksonville Axemen Rugby Team.}
+    %  \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS---------------
+\section{Projects}
+
+  \resumeSubHeadingListStart
+    \resumeSubItem{\href{https://github.com/grant0417/emu6502}{6502 Emulator}}
+      {Implemented full 6502 instruction set emulated in Rust that supports all indexing modes and is accurate to the cycle. Supports extendability via easily implementable memory maps. }
+    \resumeSubItem{\href{https://github.com/grant0417/assembler6502}{6502 Assembler}}
+      {Implemented 6502 assembler in Rust that allows for flexibility in the assembly while still being able to assemble into a binary for the emulator or hex codes plus a debug mode.}
+      \resumeSubItem{\href{https://github.com/grant0417/ray_tracer}{Ray Tracer}} 
+      {A basic ray tracer based on Ray Tracing in One Weekend and ported to Rust.}
+    \resumeSubItem{\href{https://github.com/grant0417/meme-bot}{Machine Learning Meme Generator}}
+      {Used Keras and Tensorflow with Python to predict what would follow based on training on the book Moby Dick, then formated that prediction in a standard meme format. Won second place in the USF HackJam hackathon in November 2019.}
   \resumeSubHeadingListEnd
 
 
@@ -128,19 +149,19 @@ I am a Junior Computer Science student graduating in December 2021. I am looking
 \section{Skills}
   \resumeSubHeadingListStart
     \resumeSubItem{Programming}
-      {C, C++, Java, Javascript}
+      {C, C++, Rust, Python, Java, C\#, Haskell}
+      \resumeSubItem{Web}
+      {HTML5, CSS, Javascript} 
     \resumeSubItem{Adobe Suite}
       {Premiere Pro CC, After Effects CC, and Photoshop CC}
-    \resumeSubItem{CAD}
-      {Fusion 360, Solidworks}
     \resumeSubItem{Git}
-      {Git Bash and Github/Gitlab}
+      {Git with GitHub/GitLab}
     \resumeSubItem{Operating Systems}
-      {GNU/Linux, Windows, macOS}
+    {GNU/Linux(Arch, Ubuntu), Windows, macOS}
     \resumeSubItem{\LaTeX}
       {This resume was written in \LaTeX}
+    \resumeSubItem{3D Graphics Software}
+      {Fusion 360, Blender, Unity, Unreal Engine}
   \resumeSubHeadingListEnd
-
-
 
 \end{document}
